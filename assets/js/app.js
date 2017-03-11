@@ -1,20 +1,10 @@
-var posts = [
-    {title: 'Post one', body: 'Lorem Ipsum'},
-    {title: 'Post two', body: 'Lorem Ipsum'}
-]
+//building strings with string literals and no concatination.
 
 
 
-posts.push({title: 'Post three', body: 'Lorem Ipsum'});
+var name = 'larry'
+// old way of doing this
+//var greeting = 'Welcome, ' + name;
 
-
-var newPosts = [
-    {title: 'Post four', body: 'Lorem Ipsum'},
-    {title: 'Post five', body: 'Lorem Ipsum'}
-]
-
-
-posts.push(...newPosts);
-
-
-console.log(posts);
+// new way of building strings with string literal
+var greeting = `Welcome ${name}`
