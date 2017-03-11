@@ -1,10 +1,11 @@
 //building strings with string literals and no concatination.
 
+var url = 'yup.com'
+var title = 'Yup Site'
+var link = `<a href="${url}">${title}</a>`
 
 
-var name = 'larry'
-// old way of doing this
-//var greeting = 'Welcome, ' + name;
+console.log(link);
 
-// new way of building strings with string literal
-var greeting = `Welcome ${name}`
+
+
