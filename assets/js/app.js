@@ -1,10 +1,11 @@
-//building strings with string literals and no concatination.
-
-var unreadMessages = 5;
-var readMessages = 20;
-
-
-var messages = `You have ${unreadMessages + readMessages} messaegs.`
+let text = () => {
+    return 'Some value';
+}
 
 
-console.log(messages);
+
+
+let anchor = `<a href="${text()}"></a>`
+
+
+console.log(anchor);
