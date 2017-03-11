@@ -1,14 +1,29 @@
-let greeting = `Hi 
+//Tagged Temmplate Literals
 
 
-there`
+var test = (strings, ...keys) => {
+    console.log(strings, keys);
+}
 
 
-//let greeting = "HI
-//
-//Cant do this"
+
+var name = 'Larry'
 
 
-console.log(greeting);
+var messageCount = 20
 
 
+var greeting = test `Hi ${name} you have ${messageCount} messages`
+
+
+
+
+
+
+
+
+
+
+
+
+//console.log(greeting);
