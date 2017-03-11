@@ -1,3 +1,9 @@
-var names = ['alex', 'billy', 'dale'];
+var register = (email, name, lname) => {
+    console.log('Registered', email, name, lname)
+}
 
-console.log(...names);
+var payload = ['alex@codeCourse', 'larry', 'adams'];
+
+
+
+register(...payload);
