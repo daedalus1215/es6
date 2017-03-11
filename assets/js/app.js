@@ -1,11 +1,10 @@
 //building strings with string literals and no concatination.
 
-var url = 'yup.com'
-var title = 'Yup Site'
-var link = `<a href="${url}">${title}</a>`
+var unreadMessages = 5;
+var readMessages = 20;
 
 
-console.log(link);
+var messages = `You have ${unreadMessages + readMessages} messaegs.`
 
 
-
+console.log(messages);
