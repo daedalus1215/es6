@@ -1,11 +1,14 @@
-let text = () => {
-    return 'Some value';
-}
+let greeting = `Hi 
 
 
+there`
 
 
-let anchor = `<a href="${text()}"></a>`
+//let greeting = "HI
+//
+//Cant do this"
 
 
-console.log(anchor);
+console.log(greeting);
+
+
