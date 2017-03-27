@@ -1,6 +1,4 @@
-import { substr, trim } from './helpers/index.js'
+import router from './routes/router'
 
 
-var message = 'It is a lovely day'
-
-console.log(substr(message, 10))
+console.log(router())
