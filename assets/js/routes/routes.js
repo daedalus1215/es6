@@ -1,4 +1,4 @@
-var routes = [
+export default [
     {
         name: 'home',
         path: '/'
@@ -9,4 +9,3 @@ var routes = [
     }
 ]
 
-export { routes }
